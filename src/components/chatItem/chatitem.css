@@ -1,0 +1,51 @@
+.chatItem {
+    transition: 0.2s;
+  max-width: 100%;
+  padding: 3px 5px;
+  border-radius: 3px;
+  display: flex;
+}
+
+.chatItem:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.chatIcon {
+  width: 20%;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.chatIcon > img {
+  width: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.chatInfo {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.chatName {
+  margin: 7px 0 0 0;
+}
+
+.lastMessage {
+  margin: 7px 0 10px 0;
+  font-size: 14px;
+}
+
+.lastMessage > span {
+  color: grey;
+}
+
+    .date{
+    font-size: 13px;
+    margin-top: 7px;
+}

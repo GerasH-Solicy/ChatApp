@@ -1,0 +1,13 @@
+.sidebar {
+  width: 100%;
+  display: flex;
+}
+
+.headerPart {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.headerInput{
+  width: 100%;
+}

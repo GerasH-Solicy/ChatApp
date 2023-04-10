@@ -1,13 +1,13 @@
 import React, { createContext, useState } from 'react';
 
-export const ThemeContext = createContext();
+export const ChatContext = createContext();
 
-export const ThemeProvider = ({ children }) => {
-  const [isLigth, setIsLight] = useState(true);
+export const ChatProvider = ({ children }) => {
+  const [chat, setChat] = useState(null);
 
   return (
-    <ThemeContext.Provider value={[isLigth, setIsLight]}>
+    <ChatContext.Provider value={[chat, setChat]}>
       {children}
-    </ThemeContext.Provider>
+    </ChatContext.Provider>
   );
 };

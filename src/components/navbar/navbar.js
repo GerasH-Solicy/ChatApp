@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { ThemeContext } from "../../contexts/chat.context";
+import { ThemeContext } from "../../contexts/theme.context";
 import { Button } from "antd";
 import { SettingOutlined, UserOutlined } from "@ant-design/icons";
 import MoonImage from "../../assets/images/moon-dark-theme-svgrepo-com.png";

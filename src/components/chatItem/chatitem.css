@@ -1,13 +1,21 @@
 .chatItem {
-    transition: 0.2s;
+  transition: 0.2s;
   max-width: 100%;
   padding: 3px 5px;
   border-radius: 3px;
   display: flex;
 }
 
-.chatItem:hover{
-    background-color: rgba(0, 0, 0, 0.1);
+.chatItem:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.selected {
+  background-color: #0959d970;
+}
+
+.selected:hover {
+  background-color: #0959d970;
 }
 
 .chatIcon {
@@ -15,6 +23,7 @@
   border-radius: 100%;
   border: 1px solid #ccc;
   position: relative;
+  background-color: white;
 }
 
 .chatIcon > img {
@@ -45,7 +54,7 @@
   color: grey;
 }
 
-    .date{
-    font-size: 13px;
-    margin-top: 7px;
+.date {
+  font-size: 13px;
+  margin-top: 7px;
 }

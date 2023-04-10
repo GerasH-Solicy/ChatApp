@@ -1,0 +1,26 @@
+.chatHeader {
+  padding: 3px 5px;
+  max-width: 100%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+  border-radius: 5px;
+}
+
+.selectedChatIcon {
+  width: 40px;
+}
+
+.chatName {
+  margin: 0 10px;
+}
+
+.chatLeftPart {
+  display: flex;
+}
+.members {
+  margin: 0 10px;
+  color: grey;
+}

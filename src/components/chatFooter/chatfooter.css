@@ -1,0 +1,16 @@
+.chatfooter {
+  display: flex;
+  height: 5vh;
+  align-items: center;
+}
+
+.sendBtn {
+  background-color: #237804;
+  color: white;
+}
+
+.sendBtn:hover {
+  background-color: white;
+  border-color: #237804;
+  color: #237804;
+}
